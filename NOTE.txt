@@ -1,0 +1,46 @@
+---------------- Sources ----------------
+DobotCR5: 
+	https://www.dobot-robots.com/service/download-center?keyword=&products%5B%5D=109
+ZED2i: 
+	https://www.stereolabs.com/en-th/products/zed-2
+
+NVIDIA RTX 3050 Laptop GPU:
+	https://www.nvidia.com/en-us/drivers/details/232935
+
+Pytorch 2.2.2:
+   	https://pytorch.org/get-started/previous-versions/#v222
+
+
+---------------- Dependencies ----------------
+CUDA Tookit 12.1:
+	https://developer.nvidia.com/cuda-12-1-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local
+
+python environment: 
+	pipx install virtualenv
+
+(หลังจากสร้าง Environment เสร็จ)
+
+Python utils:
+	pip install requests websocket-client
+
+ZED SDK 4.2:
+	https://download.stereolabs.com/zedsdk/4.2/cu12/win?_gl=1*221m9o*_gcl_au*MTM5MTUyMDMwMC4xNzMwNjk2MjEz
+
+
+Pytorch 2.2.2 (CUDA):
+    pip install torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/cu121
+
+Ultralytics Yolo V8:
+	pip install ultralytics
+
+Python libraries:
+	pip install shapely==2.0.6 opencv-python==4.6.0.66 numpy==1.25.2 (ติดตั้งเป็นอันสุดท้าย)
+
+
+---------------- Infomations ----------------
+Dobot CR5 Wifi:
+    password: 1234567890
+    gateway: 192.168.1.6
+
+
+self.model = "E:/vrws-project/Models/v1_Garbage NoDamage In Environment Only Normal_100epoch/weights/best.pt"
