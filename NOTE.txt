@@ -1,6 +1,7 @@
 ---------------- Sources ----------------
 DobotCR5: 
 	https://www.dobot-robots.com/service/download-center?keyword=&products%5B%5D=109
+
 ZED2i: 
 	https://www.stereolabs.com/en-th/products/zed-2
 
@@ -9,6 +10,9 @@ NVIDIA RTX 3050 Laptop GPU:
 
 Pytorch 2.2.2:
    	https://pytorch.org/get-started/previous-versions/#v222
+
+Simple garbage models:
+	https://huggingface.co/thnnathat/vrws-project-model
 
 
 ---------------- Dependencies ----------------
@@ -41,6 +45,3 @@ Python libraries:
 Dobot CR5 Wifi:
     password: 1234567890
     gateway: 192.168.1.6
-
-
-self.model = "E:/vrws-project/Models/v1_Garbage NoDamage In Environment Only Normal_100epoch/weights/best.pt"
